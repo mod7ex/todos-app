@@ -1,0 +1,67 @@
+body {
+  min-height: 100vh;
+}
+
+header,
+nav {
+  background-color: rgb(44, 44, 44);
+  z-index: 100;
+}
+
+.profile i.fa-user {
+  font-size: 6em;
+}
+
+.container-lg {
+  position: relative;
+}
+nav#togglerTarget {
+  height: 91vh;
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+#toggler span {
+  background-color: blue;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ************** TODO ***************** */
+div.todo {
+  background-color: rgb(44, 44, 44);
+  max-width: 250px;
+}
+
+div.todo > span {
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+}
+div.todo > span button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+div.todo div {
+  background: #ddd;
+}
+
+div.todo > div > p,
+div.todo > span > b {
+  word-wrap: break-word; /* IE 5.5-7 */
+  white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap; /* current browsers */
+}
+
+/* ************************************** */
+
+
+#profile a img, .profile a img{
+  width: 150px;
+}
